@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import * as Highcharts from 'highcharts';
 import HC_exporting from 'highcharts/modules/exporting';
 
@@ -12,6 +12,8 @@ export class AreaComponent implements OnInit {
   chartOptions: {};
 
   Highcharts = Highcharts;
+
+  @Input() data = [{}];
 
   constructor() {
     this.chartOptions = {};

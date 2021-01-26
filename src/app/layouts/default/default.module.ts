@@ -1,3 +1,4 @@
+import { DashboardService } from './../../modules/dashboard.service';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -25,6 +26,9 @@ import { MatDividerModule } from '@angular/material/divider';
     MatDividerModule,
     FlexLayoutModule,
     MatCardModule
+  ],
+  providers: [
+    DashboardService
   ]
 })
 export class DefaultModule { }
