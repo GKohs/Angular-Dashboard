@@ -9,7 +9,7 @@ import { DashboardService } from '../dashboard.service';
 export class DashboardComponent implements OnInit {
 
   bigChart = [{}];
-  cards = [{}];
+  cards : number[] = [];
   pieChart = [{}];
   constructor(private dashboardService: DashboardService) { }
 

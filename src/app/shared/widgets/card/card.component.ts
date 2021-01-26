@@ -9,14 +9,14 @@ import HC_exporting from 'highcharts/modules/exporting';
 })
 export class CardComponent implements OnInit {
 
-  @Input() label: string;
-  @Input() total: string;
-  @Input() percentage: string;
+  @Input() label!: string;
+  @Input() total!: string;
+  @Input() percentage!: string;
 
   Highcharts = Highcharts;
   chartOptions = {};
 
-  @Input() data = [];
+  @Input() data : number[] = [];
   constructor() {
   }
 
