@@ -17,7 +17,7 @@ import { MatDividerModule } from '@angular/material/divider';
   declarations: [
     DefaultComponent,
     DashboardComponent,
-    PostsComponent
+    PostsComponent,
   ],
   imports: [
     CommonModule,
