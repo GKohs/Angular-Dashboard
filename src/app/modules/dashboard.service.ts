@@ -63,4 +63,8 @@ export class DashboardService {
       y: 2.61
     }];
   }
+
+  table() {
+    return null;
+  }
 }
